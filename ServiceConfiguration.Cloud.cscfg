@@ -11,7 +11,7 @@
     <Certificates />
   </Role>
   <NetworkConfiguration>
-    <VirtualNetworkSite name="JPStore" />
+    <VirtualNetworkSite name="JPStore" AffinityGroup="SoutheastAsia" />
     <AddressAssignments>
       <InstanceAddress roleName="WebRole1">
         <Subnets>
