@@ -10,4 +10,14 @@
     <Instances count="1" />
     <Certificates />
   </Role>
+  <NetworkConfiguration>
+    <VirtualNetworkSite name="JPStore" />
+    <AddressAssignments>
+      <InstanceAddress roleName="WebRole1">
+        <Subnets>
+          <Subnet name="Subnet-1" />
+        </Subnets>
+      </InstanceAddress>
+    </AddressAssignments>
+  </NetworkConfiguration>
 </ServiceConfiguration>
